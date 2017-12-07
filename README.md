@@ -28,7 +28,7 @@ echo 'auto' = Powertop Enabled for specified device
 
 ![](images/powertop_sc1.png "SC1")
 
-Copy the echo command into the powertop.conf file as seen in the screen-shot below. You can add multiple lines.
+Copy the echo command into the /etc/powertop.conf file as seen in the screen-shot below. You can add multiple lines.
 
 ![](images/powertop_sc2.png "SC2")
 
