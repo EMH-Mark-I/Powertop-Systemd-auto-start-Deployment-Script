@@ -18,7 +18,7 @@ Run the install script as a regular user. It will prompt for sudo privilege.
 `./install`
 
 ####  Enable / Disable Tunables
-If you have any custom tunable options that you want to set for devices, you can add them to the powertop.conf file located in /etc. You can execute custom tunable options by running `powertop_tunables` from the command line.
+If you have any custom tunable options that you want to set for devices, you can add them to the powertop.conf file located in /etc/powertop.conf. You can execute the custom tunable options by running `powertop_tunables` from the command line or by rebooting the system.
 
 Note: A quick way to find the command to enable / disable Powertop's auto-tune control of a device, run Powertop and navigate to the "tunables" view. Return / Enter on the option that you want enabled / disabled and take note of the "echo" command printed at the top.
 
